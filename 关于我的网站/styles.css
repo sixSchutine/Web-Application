@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+main {
+    padding: 0px;
+}
+
+section {
+    margin-bottom: 0px;
+}
+
+.figure-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px; /* 调整间距 */
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px; /* 设置正方形的宽度 */
+    height: 150px; /* 设置正方形的高度 */
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+figure a {
+    display: block;
+    width: 100%; /* 使图片宽度占满容器 */
+    height: 100%; /* 使图片高度占满容器 */
+    background-size: cover; /* 使背景图片覆盖整个区域 */
+    background-position: center; /* 使背景图片居中 */
+}
+
+figcaption {
+    margin-top: 5px;
+    text-align: center; /* 确保文字居中 */
+}
+
+figcaption a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px; /* 增加字体大小，确保文字显示完整 */
+}
+
+
+article {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+article p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.drawing-container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    gap: 0px;
+}

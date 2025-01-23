@@ -1,0 +1,74 @@
+/* 基础样式 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffbe6; /* 浅黄色背景 */
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* 半透明白色背景 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* 文章样式 */
+.multi-column {
+    column-count: 3; /* 分成三栏 */
+    column-gap: 20px; /* 栏间距 */
+    column-rule: 1px solid #ddd; /* 栏间分割线 */
+    background-color: #fff; /* 白色背景 */
+    padding: 20px;
+    border-radius: 10px;
+    color: #333; /* 文字颜色 */
+}
+
+.multi-column h3 {
+    text-align: center;
+    color: #ff6b6b; /* 橙红色标题 */
+}
+
+.multi-column p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-indent: 2em; /* 首行缩进 */
+}
+
+/* 每段文字不同颜色 */
+.multi-column p:nth-child(2) {
+    color: #ff6b6b; /* 段落1 - 橙红色 */
+}
+
+.multi-column p:nth-child(3) {
+    color: #6c5ce7; /* 段落2 - 蓝紫色 */
+}
+
+.multi-column p:nth-child(4) {
+    color: #00b894; /* 段落3 - 青绿色 */
+}
